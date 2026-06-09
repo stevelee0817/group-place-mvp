@@ -14,6 +14,11 @@
 8. 지도, 로그인, 결제, 예약 확정 기능은 제외한다.
 9. 객체지향 설계가 코드와 README에 드러나야 한다.
 10. 현장 조사 이후 실제 매장 데이터와 피드백을 반영할 수 있는 구조로 만든다.
+11. 핵심 도메인 로직은 단순 UI 함수가 아니라 객체지향적 책임 분리로 표현한다.
+    - MatchEngine: 매장 적합도 판단
+    - StoreRepository: seed data/localStorage 기반 데이터 접근
+    - InquiryMessageFactory: 문의 메시지 생성
+    - Store/SearchRequest/ReservationSlot/StoreMatchResult: 도메인 객체 또는 명확한 타입 모델
 
 ## 핵심 문장
 
