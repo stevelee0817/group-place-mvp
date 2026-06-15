@@ -232,3 +232,23 @@ group-place-store-overrides
 5. 문의 메시지 템플릿의 표현 개선
 6. mock data를 실제 조사 데이터로 교체
 7. 필요 시 Supabase 연동 범위 결정
+
+## Simulation
+
+이 프로젝트는 실제 매장 운영 데이터가 없는 MVP 단계이므로, 가상 좌석 점유 기반 시뮬레이션을 추가해 매칭 로직의 동작 경향을 확인했다.
+
+```bash
+node scripts/simulate.js
+```
+
+시뮬레이션은 18시부터 26시까지의 대학가 술집/뒤풀이 시간대를 대상으로 가상의 손님 입장, 퇴장, 테이블 점유를 생성한다. 이후 테스트 요청이 들어왔을 때 붙어 앉을 수 있는지, 분리 착석은 가능한지, 문의가 필요한지, 어려운지를 분류한다.
+
+실행 결과는 다음 파일로 저장된다.
+
+- `docs/simulation.md`
+- `docs/simulation-summary.json`
+- `docs/simulation-requests.csv`
+- `docs/simulation-scenarios.json`
+
+이 결과는 실제 예약 가능성을 보장하는 자료가 아니라, 인원, 시간대, 착석 선호, 좌석 점유 상황에 따라 매칭 로직이 어떻게 반응하는지 확인하기 위한 검증 자료이다.
+node scripts/simulate.js

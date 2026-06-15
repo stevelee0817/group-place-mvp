@@ -1,0 +1,2060 @@
+[
+  {
+    "scenarioName": "baseline",
+    "totalTestRequests": 1000,
+    "candidateAvailabilityRatio": 0.877,
+    "candidateAvailabilityRatioText": "87.7%",
+    "averageCandidateCount": 1.48,
+    "averageScore": 55.27,
+    "levelCounts": {
+      "together_likely": 414,
+      "inquiry_recommended": 350,
+      "split_only": 113,
+      "difficult": 123
+    },
+    "levelTable": [
+      {
+        "level": "together_likely",
+        "label": "같이 앉기 가능성 높음",
+        "count": 414,
+        "ratio": 0.414,
+        "ratioText": "41.4%"
+      },
+      {
+        "level": "inquiry_recommended",
+        "label": "문의 권장",
+        "count": 350,
+        "ratio": 0.35,
+        "ratioText": "35.0%"
+      },
+      {
+        "level": "split_only",
+        "label": "분리 착석 가능",
+        "count": 113,
+        "ratio": 0.113,
+        "ratioText": "11.3%"
+      },
+      {
+        "level": "difficult",
+        "label": "현재 조건에서는 어려움",
+        "count": 123,
+        "ratio": 0.123,
+        "ratioText": "12.3%"
+      }
+    ],
+    "byHour": [
+      {
+        "key": 18,
+        "label": "18시대",
+        "total": 126,
+        "candidateAvailable": 121,
+        "candidateAvailabilityRatio": 0.9603,
+        "candidateAvailabilityRatioText": "96.0%",
+        "averageCandidateCount": 1.86,
+        "averageScore": 80.23,
+        "levelCounts": {
+          "together_likely": 99,
+          "inquiry_recommended": 12,
+          "split_only": 10,
+          "difficult": 5
+        }
+      },
+      {
+        "key": 19,
+        "label": "19시대",
+        "total": 108,
+        "candidateAvailable": 85,
+        "candidateAvailabilityRatio": 0.787,
+        "candidateAvailabilityRatioText": "78.7%",
+        "averageCandidateCount": 1.27,
+        "averageScore": 52.54,
+        "levelCounts": {
+          "together_likely": 43,
+          "inquiry_recommended": 27,
+          "split_only": 15,
+          "difficult": 23
+        }
+      },
+      {
+        "key": 20,
+        "label": "20시대",
+        "total": 139,
+        "candidateAvailable": 125,
+        "candidateAvailabilityRatio": 0.8993,
+        "candidateAvailabilityRatioText": "89.9%",
+        "averageCandidateCount": 1.47,
+        "averageScore": 49.45,
+        "levelCounts": {
+          "together_likely": 43,
+          "inquiry_recommended": 69,
+          "split_only": 13,
+          "difficult": 14
+        }
+      },
+      {
+        "key": 21,
+        "label": "21시대",
+        "total": 144,
+        "candidateAvailable": 128,
+        "candidateAvailabilityRatio": 0.8889,
+        "candidateAvailabilityRatioText": "88.9%",
+        "averageCandidateCount": 1.49,
+        "averageScore": 52.48,
+        "levelCounts": {
+          "together_likely": 50,
+          "inquiry_recommended": 61,
+          "split_only": 17,
+          "difficult": 16
+        }
+      },
+      {
+        "key": 22,
+        "label": "22시대",
+        "total": 179,
+        "candidateAvailable": 148,
+        "candidateAvailabilityRatio": 0.8268,
+        "candidateAvailabilityRatioText": "82.7%",
+        "averageCandidateCount": 1.25,
+        "averageScore": 44.08,
+        "levelCounts": {
+          "together_likely": 44,
+          "inquiry_recommended": 77,
+          "split_only": 27,
+          "difficult": 31
+        }
+      },
+      {
+        "key": 23,
+        "label": "23시대",
+        "total": 159,
+        "candidateAvailable": 137,
+        "candidateAvailabilityRatio": 0.8616,
+        "candidateAvailabilityRatioText": "86.2%",
+        "averageCandidateCount": 1.46,
+        "averageScore": 46.57,
+        "levelCounts": {
+          "together_likely": 42,
+          "inquiry_recommended": 75,
+          "split_only": 20,
+          "difficult": 22
+        }
+      },
+      {
+        "key": 24,
+        "label": "24시대(0시대)",
+        "total": 82,
+        "candidateAvailable": 77,
+        "candidateAvailabilityRatio": 0.939,
+        "candidateAvailabilityRatioText": "93.9%",
+        "averageCandidateCount": 1.57,
+        "averageScore": 65.03,
+        "levelCounts": {
+          "together_likely": 47,
+          "inquiry_recommended": 21,
+          "split_only": 9,
+          "difficult": 5
+        }
+      },
+      {
+        "key": 25,
+        "label": "25시대(1시대)",
+        "total": 63,
+        "candidateAvailable": 56,
+        "candidateAvailabilityRatio": 0.8889,
+        "candidateAvailabilityRatioText": "88.9%",
+        "averageCandidateCount": 1.67,
+        "averageScore": 70.25,
+        "levelCounts": {
+          "together_likely": 46,
+          "inquiry_recommended": 8,
+          "split_only": 2,
+          "difficult": 7
+        }
+      }
+    ],
+    "byGroupSize": [
+      {
+        "key": 2,
+        "label": "2명",
+        "total": 89,
+        "candidateAvailable": 88,
+        "candidateAvailabilityRatio": 0.9888,
+        "candidateAvailabilityRatioText": "98.9%",
+        "averageCandidateCount": 2.08,
+        "averageScore": 80.8,
+        "levelCounts": {
+          "together_likely": 80,
+          "inquiry_recommended": 8,
+          "split_only": 0,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 3,
+        "label": "3명",
+        "total": 137,
+        "candidateAvailable": 136,
+        "candidateAvailabilityRatio": 0.9927,
+        "candidateAvailabilityRatioText": "99.3%",
+        "averageCandidateCount": 1.87,
+        "averageScore": 72.87,
+        "levelCounts": {
+          "together_likely": 97,
+          "inquiry_recommended": 36,
+          "split_only": 3,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 4,
+        "label": "4명",
+        "total": 110,
+        "candidateAvailable": 109,
+        "candidateAvailabilityRatio": 0.9909,
+        "candidateAvailabilityRatioText": "99.1%",
+        "averageCandidateCount": 1.94,
+        "averageScore": 73.2,
+        "levelCounts": {
+          "together_likely": 78,
+          "inquiry_recommended": 29,
+          "split_only": 2,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 5,
+        "label": "5명",
+        "total": 125,
+        "candidateAvailable": 114,
+        "candidateAvailabilityRatio": 0.912,
+        "candidateAvailabilityRatioText": "91.2%",
+        "averageCandidateCount": 1.5,
+        "averageScore": 55.71,
+        "levelCounts": {
+          "together_likely": 44,
+          "inquiry_recommended": 55,
+          "split_only": 15,
+          "difficult": 11
+        }
+      },
+      {
+        "key": 6,
+        "label": "6명",
+        "total": 113,
+        "candidateAvailable": 100,
+        "candidateAvailabilityRatio": 0.885,
+        "candidateAvailabilityRatioText": "88.5%",
+        "averageCandidateCount": 1.4,
+        "averageScore": 53.88,
+        "levelCounts": {
+          "together_likely": 38,
+          "inquiry_recommended": 49,
+          "split_only": 13,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 7,
+        "label": "7명",
+        "total": 108,
+        "candidateAvailable": 87,
+        "candidateAvailabilityRatio": 0.8056,
+        "candidateAvailabilityRatioText": "80.6%",
+        "averageCandidateCount": 1.2,
+        "averageScore": 46.37,
+        "levelCounts": {
+          "together_likely": 33,
+          "inquiry_recommended": 42,
+          "split_only": 12,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 8,
+        "label": "8명",
+        "total": 83,
+        "candidateAvailable": 73,
+        "candidateAvailabilityRatio": 0.8795,
+        "candidateAvailabilityRatioText": "88.0%",
+        "averageCandidateCount": 1.35,
+        "averageScore": 51.27,
+        "levelCounts": {
+          "together_likely": 26,
+          "inquiry_recommended": 31,
+          "split_only": 16,
+          "difficult": 10
+        }
+      },
+      {
+        "key": 9,
+        "label": "9명",
+        "total": 66,
+        "candidateAvailable": 58,
+        "candidateAvailabilityRatio": 0.8788,
+        "candidateAvailabilityRatioText": "87.9%",
+        "averageCandidateCount": 1.18,
+        "averageScore": 39.12,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 40,
+          "split_only": 15,
+          "difficult": 8
+        }
+      },
+      {
+        "key": 10,
+        "label": "10명",
+        "total": 50,
+        "candidateAvailable": 34,
+        "candidateAvailabilityRatio": 0.68,
+        "candidateAvailabilityRatioText": "68.0%",
+        "averageCandidateCount": 1.04,
+        "averageScore": 29.82,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 20,
+          "split_only": 11,
+          "difficult": 16
+        }
+      },
+      {
+        "key": 11,
+        "label": "11명",
+        "total": 36,
+        "candidateAvailable": 21,
+        "candidateAvailabilityRatio": 0.5833,
+        "candidateAvailabilityRatioText": "58.3%",
+        "averageCandidateCount": 0.86,
+        "averageScore": 28.07,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 12,
+          "split_only": 6,
+          "difficult": 15
+        }
+      },
+      {
+        "key": 12,
+        "label": "12명",
+        "total": 37,
+        "candidateAvailable": 28,
+        "candidateAvailabilityRatio": 0.7568,
+        "candidateAvailabilityRatioText": "75.7%",
+        "averageCandidateCount": 1.05,
+        "averageScore": 37.68,
+        "levelCounts": {
+          "together_likely": 6,
+          "inquiry_recommended": 13,
+          "split_only": 9,
+          "difficult": 9
+        }
+      },
+      {
+        "key": 13,
+        "label": "13명",
+        "total": 37,
+        "candidateAvailable": 23,
+        "candidateAvailabilityRatio": 0.6216,
+        "candidateAvailabilityRatioText": "62.2%",
+        "averageCandidateCount": 0.81,
+        "averageScore": 23.85,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 14,
+          "split_only": 8,
+          "difficult": 14
+        }
+      },
+      {
+        "key": 14,
+        "label": "14명",
+        "total": 9,
+        "candidateAvailable": 6,
+        "candidateAvailabilityRatio": 0.6667,
+        "candidateAvailabilityRatioText": "66.7%",
+        "averageCandidateCount": 1,
+        "averageScore": 40.36,
+        "levelCounts": {
+          "together_likely": 2,
+          "inquiry_recommended": 1,
+          "split_only": 3,
+          "difficult": 3
+        }
+      }
+    ],
+    "bySeatingPreference": [
+      {
+        "key": "any",
+        "label": "같은 매장이면 괜찮음",
+        "total": 281,
+        "candidateAvailable": 260,
+        "candidateAvailabilityRatio": 0.9253,
+        "candidateAvailabilityRatioText": "92.5%",
+        "averageCandidateCount": 1.6,
+        "averageScore": 58.67,
+        "levelCounts": {
+          "together_likely": 117,
+          "inquiry_recommended": 106,
+          "split_only": 37,
+          "difficult": 21
+        }
+      },
+      {
+        "key": "together",
+        "label": "붙어 앉기 선호",
+        "total": 333,
+        "candidateAvailable": 264,
+        "candidateAvailabilityRatio": 0.7928,
+        "candidateAvailabilityRatioText": "79.3%",
+        "averageCandidateCount": 1.28,
+        "averageScore": 50.4,
+        "levelCounts": {
+          "together_likely": 147,
+          "inquiry_recommended": 117,
+          "split_only": 0,
+          "difficult": 69
+        }
+      },
+      {
+        "key": "split_ok",
+        "label": "일부 분리 가능",
+        "total": 386,
+        "candidateAvailable": 353,
+        "candidateAvailabilityRatio": 0.9145,
+        "candidateAvailabilityRatioText": "91.5%",
+        "averageCandidateCount": 1.57,
+        "averageScore": 56.99,
+        "levelCounts": {
+          "together_likely": 150,
+          "inquiry_recommended": 127,
+          "split_only": 76,
+          "difficult": 33
+        }
+      }
+    ]
+  },
+  {
+    "scenarioName": "peakTime",
+    "totalTestRequests": 1000,
+    "candidateAvailabilityRatio": 0.844,
+    "candidateAvailabilityRatioText": "84.4%",
+    "averageCandidateCount": 1.42,
+    "averageScore": 49.68,
+    "levelCounts": {
+      "together_likely": 339,
+      "inquiry_recommended": 409,
+      "split_only": 96,
+      "difficult": 156
+    },
+    "levelTable": [
+      {
+        "level": "together_likely",
+        "label": "같이 앉기 가능성 높음",
+        "count": 339,
+        "ratio": 0.339,
+        "ratioText": "33.9%"
+      },
+      {
+        "level": "inquiry_recommended",
+        "label": "문의 권장",
+        "count": 409,
+        "ratio": 0.409,
+        "ratioText": "40.9%"
+      },
+      {
+        "level": "split_only",
+        "label": "분리 착석 가능",
+        "count": 96,
+        "ratio": 0.096,
+        "ratioText": "9.6%"
+      },
+      {
+        "level": "difficult",
+        "label": "현재 조건에서는 어려움",
+        "count": 156,
+        "ratio": 0.156,
+        "ratioText": "15.6%"
+      }
+    ],
+    "byHour": [
+      {
+        "key": 18,
+        "label": "18시대",
+        "total": 41,
+        "candidateAvailable": 40,
+        "candidateAvailabilityRatio": 0.9756,
+        "candidateAvailabilityRatioText": "97.6%",
+        "averageCandidateCount": 1.88,
+        "averageScore": 87.43,
+        "levelCounts": {
+          "together_likely": 37,
+          "inquiry_recommended": 2,
+          "split_only": 1,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 19,
+        "label": "19시대",
+        "total": 30,
+        "candidateAvailable": 29,
+        "candidateAvailabilityRatio": 0.9667,
+        "candidateAvailabilityRatioText": "96.7%",
+        "averageCandidateCount": 2.07,
+        "averageScore": 76.84,
+        "levelCounts": {
+          "together_likely": 21,
+          "inquiry_recommended": 5,
+          "split_only": 3,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 20,
+        "label": "20시대",
+        "total": 193,
+        "candidateAvailable": 156,
+        "candidateAvailabilityRatio": 0.8083,
+        "candidateAvailabilityRatioText": "80.8%",
+        "averageCandidateCount": 1.4,
+        "averageScore": 49.57,
+        "levelCounts": {
+          "together_likely": 66,
+          "inquiry_recommended": 61,
+          "split_only": 29,
+          "difficult": 37
+        }
+      },
+      {
+        "key": 21,
+        "label": "21시대",
+        "total": 189,
+        "candidateAvailable": 153,
+        "candidateAvailabilityRatio": 0.8095,
+        "candidateAvailabilityRatioText": "81.0%",
+        "averageCandidateCount": 1.2,
+        "averageScore": 39.91,
+        "levelCounts": {
+          "together_likely": 38,
+          "inquiry_recommended": 104,
+          "split_only": 11,
+          "difficult": 36
+        }
+      },
+      {
+        "key": 22,
+        "label": "22시대",
+        "total": 209,
+        "candidateAvailable": 188,
+        "candidateAvailabilityRatio": 0.8995,
+        "candidateAvailabilityRatioText": "90.0%",
+        "averageCandidateCount": 1.56,
+        "averageScore": 48.39,
+        "levelCounts": {
+          "together_likely": 61,
+          "inquiry_recommended": 108,
+          "split_only": 19,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 23,
+        "label": "23시대",
+        "total": 213,
+        "candidateAvailable": 167,
+        "candidateAvailabilityRatio": 0.784,
+        "candidateAvailabilityRatioText": "78.4%",
+        "averageCandidateCount": 1.23,
+        "averageScore": 41.27,
+        "levelCounts": {
+          "together_likely": 51,
+          "inquiry_recommended": 99,
+          "split_only": 17,
+          "difficult": 46
+        }
+      },
+      {
+        "key": 24,
+        "label": "24시대(0시대)",
+        "total": 70,
+        "candidateAvailable": 60,
+        "candidateAvailabilityRatio": 0.8571,
+        "candidateAvailabilityRatioText": "85.7%",
+        "averageCandidateCount": 1.49,
+        "averageScore": 55.32,
+        "levelCounts": {
+          "together_likely": 30,
+          "inquiry_recommended": 20,
+          "split_only": 10,
+          "difficult": 10
+        }
+      },
+      {
+        "key": 25,
+        "label": "25시대(1시대)",
+        "total": 55,
+        "candidateAvailable": 51,
+        "candidateAvailabilityRatio": 0.9273,
+        "candidateAvailabilityRatioText": "92.7%",
+        "averageCandidateCount": 1.69,
+        "averageScore": 70.93,
+        "levelCounts": {
+          "together_likely": 35,
+          "inquiry_recommended": 10,
+          "split_only": 6,
+          "difficult": 4
+        }
+      }
+    ],
+    "byGroupSize": [
+      {
+        "key": 2,
+        "label": "2명",
+        "total": 88,
+        "candidateAvailable": 85,
+        "candidateAvailabilityRatio": 0.9659,
+        "candidateAvailabilityRatioText": "96.6%",
+        "averageCandidateCount": 1.78,
+        "averageScore": 70.1,
+        "levelCounts": {
+          "together_likely": 62,
+          "inquiry_recommended": 23,
+          "split_only": 0,
+          "difficult": 3
+        }
+      },
+      {
+        "key": 3,
+        "label": "3명",
+        "total": 133,
+        "candidateAvailable": 130,
+        "candidateAvailabilityRatio": 0.9774,
+        "candidateAvailabilityRatioText": "97.7%",
+        "averageCandidateCount": 1.93,
+        "averageScore": 68.44,
+        "levelCounts": {
+          "together_likely": 85,
+          "inquiry_recommended": 38,
+          "split_only": 7,
+          "difficult": 3
+        }
+      },
+      {
+        "key": 4,
+        "label": "4명",
+        "total": 131,
+        "candidateAvailable": 125,
+        "candidateAvailabilityRatio": 0.9542,
+        "candidateAvailabilityRatioText": "95.4%",
+        "averageCandidateCount": 1.79,
+        "averageScore": 64.77,
+        "levelCounts": {
+          "together_likely": 79,
+          "inquiry_recommended": 44,
+          "split_only": 2,
+          "difficult": 6
+        }
+      },
+      {
+        "key": 5,
+        "label": "5명",
+        "total": 132,
+        "candidateAvailable": 119,
+        "candidateAvailabilityRatio": 0.9015,
+        "candidateAvailabilityRatioText": "90.2%",
+        "averageCandidateCount": 1.45,
+        "averageScore": 48.63,
+        "levelCounts": {
+          "together_likely": 29,
+          "inquiry_recommended": 74,
+          "split_only": 16,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 6,
+        "label": "6명",
+        "total": 104,
+        "candidateAvailable": 95,
+        "candidateAvailabilityRatio": 0.9135,
+        "candidateAvailabilityRatioText": "91.3%",
+        "averageCandidateCount": 1.52,
+        "averageScore": 53.61,
+        "levelCounts": {
+          "together_likely": 32,
+          "inquiry_recommended": 51,
+          "split_only": 12,
+          "difficult": 9
+        }
+      },
+      {
+        "key": 7,
+        "label": "7명",
+        "total": 79,
+        "candidateAvailable": 65,
+        "candidateAvailabilityRatio": 0.8228,
+        "candidateAvailabilityRatioText": "82.3%",
+        "averageCandidateCount": 1.28,
+        "averageScore": 45.9,
+        "levelCounts": {
+          "together_likely": 20,
+          "inquiry_recommended": 30,
+          "split_only": 15,
+          "difficult": 14
+        }
+      },
+      {
+        "key": 8,
+        "label": "8명",
+        "total": 78,
+        "candidateAvailable": 61,
+        "candidateAvailabilityRatio": 0.7821,
+        "candidateAvailabilityRatioText": "78.2%",
+        "averageCandidateCount": 1.19,
+        "averageScore": 41.71,
+        "levelCounts": {
+          "together_likely": 17,
+          "inquiry_recommended": 35,
+          "split_only": 9,
+          "difficult": 17
+        }
+      },
+      {
+        "key": 9,
+        "label": "9명",
+        "total": 72,
+        "candidateAvailable": 53,
+        "candidateAvailabilityRatio": 0.7361,
+        "candidateAvailabilityRatioText": "73.6%",
+        "averageCandidateCount": 1.01,
+        "averageScore": 32.86,
+        "levelCounts": {
+          "together_likely": 5,
+          "inquiry_recommended": 34,
+          "split_only": 14,
+          "difficult": 19
+        }
+      },
+      {
+        "key": 10,
+        "label": "10명",
+        "total": 60,
+        "candidateAvailable": 47,
+        "candidateAvailabilityRatio": 0.7833,
+        "candidateAvailabilityRatioText": "78.3%",
+        "averageCandidateCount": 1.15,
+        "averageScore": 33.09,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 34,
+          "split_only": 9,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 11,
+        "label": "11명",
+        "total": 34,
+        "candidateAvailable": 16,
+        "candidateAvailabilityRatio": 0.4706,
+        "candidateAvailabilityRatioText": "47.1%",
+        "averageCandidateCount": 0.74,
+        "averageScore": 21.88,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 10,
+          "split_only": 5,
+          "difficult": 18
+        }
+      },
+      {
+        "key": 12,
+        "label": "12명",
+        "total": 43,
+        "candidateAvailable": 30,
+        "candidateAvailabilityRatio": 0.6977,
+        "candidateAvailabilityRatioText": "69.8%",
+        "averageCandidateCount": 0.86,
+        "averageScore": 27.84,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 26,
+          "split_only": 0,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 13,
+        "label": "13명",
+        "total": 36,
+        "candidateAvailable": 14,
+        "candidateAvailabilityRatio": 0.3889,
+        "candidateAvailabilityRatioText": "38.9%",
+        "averageCandidateCount": 0.56,
+        "averageScore": 14.99,
+        "levelCounts": {
+          "together_likely": 0,
+          "inquiry_recommended": 9,
+          "split_only": 5,
+          "difficult": 22
+        }
+      },
+      {
+        "key": 14,
+        "label": "14명",
+        "total": 10,
+        "candidateAvailable": 4,
+        "candidateAvailabilityRatio": 0.4,
+        "candidateAvailabilityRatioText": "40.0%",
+        "averageCandidateCount": 0.5,
+        "averageScore": 21.4,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 1,
+          "split_only": 2,
+          "difficult": 6
+        }
+      }
+    ],
+    "bySeatingPreference": [
+      {
+        "key": "any",
+        "label": "같은 매장이면 괜찮음",
+        "total": 282,
+        "candidateAvailable": 256,
+        "candidateAvailabilityRatio": 0.9078,
+        "candidateAvailabilityRatioText": "90.8%",
+        "averageCandidateCount": 1.61,
+        "averageScore": 54.78,
+        "levelCounts": {
+          "together_likely": 99,
+          "inquiry_recommended": 113,
+          "split_only": 44,
+          "difficult": 26
+        }
+      },
+      {
+        "key": "split_ok",
+        "label": "일부 분리 가능",
+        "total": 400,
+        "candidateAvailable": 348,
+        "candidateAvailabilityRatio": 0.87,
+        "candidateAvailabilityRatioText": "87.0%",
+        "averageCandidateCount": 1.48,
+        "averageScore": 50.89,
+        "levelCounts": {
+          "together_likely": 130,
+          "inquiry_recommended": 166,
+          "split_only": 52,
+          "difficult": 52
+        }
+      },
+      {
+        "key": "together",
+        "label": "붙어 앉기 선호",
+        "total": 318,
+        "candidateAvailable": 240,
+        "candidateAvailabilityRatio": 0.7547,
+        "candidateAvailabilityRatioText": "75.5%",
+        "averageCandidateCount": 1.18,
+        "averageScore": 43.63,
+        "levelCounts": {
+          "together_likely": 110,
+          "inquiry_recommended": 130,
+          "split_only": 0,
+          "difficult": 78
+        }
+      }
+    ]
+  },
+  {
+    "scenarioName": "largeGroup",
+    "totalTestRequests": 1000,
+    "candidateAvailabilityRatio": 0.76,
+    "candidateAvailabilityRatioText": "76.0%",
+    "averageCandidateCount": 1.1,
+    "averageScore": 38.2,
+    "levelCounts": {
+      "together_likely": 82,
+      "inquiry_recommended": 355,
+      "split_only": 323,
+      "difficult": 240
+    },
+    "levelTable": [
+      {
+        "level": "together_likely",
+        "label": "같이 앉기 가능성 높음",
+        "count": 82,
+        "ratio": 0.082,
+        "ratioText": "8.2%"
+      },
+      {
+        "level": "inquiry_recommended",
+        "label": "문의 권장",
+        "count": 355,
+        "ratio": 0.355,
+        "ratioText": "35.5%"
+      },
+      {
+        "level": "split_only",
+        "label": "분리 착석 가능",
+        "count": 323,
+        "ratio": 0.323,
+        "ratioText": "32.3%"
+      },
+      {
+        "level": "difficult",
+        "label": "현재 조건에서는 어려움",
+        "count": 240,
+        "ratio": 0.24,
+        "ratioText": "24.0%"
+      }
+    ],
+    "byHour": [
+      {
+        "key": 18,
+        "label": "18시대",
+        "total": 109,
+        "candidateAvailable": 97,
+        "candidateAvailabilityRatio": 0.8899,
+        "candidateAvailabilityRatioText": "89.0%",
+        "averageCandidateCount": 1.59,
+        "averageScore": 59.26,
+        "levelCounts": {
+          "together_likely": 29,
+          "inquiry_recommended": 20,
+          "split_only": 48,
+          "difficult": 12
+        }
+      },
+      {
+        "key": 19,
+        "label": "19시대",
+        "total": 104,
+        "candidateAvailable": 75,
+        "candidateAvailabilityRatio": 0.7212,
+        "candidateAvailabilityRatioText": "72.1%",
+        "averageCandidateCount": 1.01,
+        "averageScore": 39.33,
+        "levelCounts": {
+          "together_likely": 9,
+          "inquiry_recommended": 34,
+          "split_only": 32,
+          "difficult": 29
+        }
+      },
+      {
+        "key": 20,
+        "label": "20시대",
+        "total": 165,
+        "candidateAvailable": 123,
+        "candidateAvailabilityRatio": 0.7455,
+        "candidateAvailabilityRatioText": "74.5%",
+        "averageCandidateCount": 1.02,
+        "averageScore": 33.72,
+        "levelCounts": {
+          "together_likely": 10,
+          "inquiry_recommended": 74,
+          "split_only": 39,
+          "difficult": 42
+        }
+      },
+      {
+        "key": 21,
+        "label": "21시대",
+        "total": 151,
+        "candidateAvailable": 126,
+        "candidateAvailabilityRatio": 0.8344,
+        "candidateAvailabilityRatioText": "83.4%",
+        "averageCandidateCount": 1.22,
+        "averageScore": 37.32,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 73,
+          "split_only": 49,
+          "difficult": 25
+        }
+      },
+      {
+        "key": 22,
+        "label": "22시대",
+        "total": 160,
+        "candidateAvailable": 108,
+        "candidateAvailabilityRatio": 0.675,
+        "candidateAvailabilityRatioText": "67.5%",
+        "averageCandidateCount": 0.91,
+        "averageScore": 30.5,
+        "levelCounts": {
+          "together_likely": 7,
+          "inquiry_recommended": 51,
+          "split_only": 50,
+          "difficult": 52
+        }
+      },
+      {
+        "key": 23,
+        "label": "23시대",
+        "total": 149,
+        "candidateAvailable": 100,
+        "candidateAvailabilityRatio": 0.6711,
+        "candidateAvailabilityRatioText": "67.1%",
+        "averageCandidateCount": 0.88,
+        "averageScore": 30.57,
+        "levelCounts": {
+          "together_likely": 5,
+          "inquiry_recommended": 50,
+          "split_only": 45,
+          "difficult": 49
+        }
+      },
+      {
+        "key": 24,
+        "label": "24시대(0시대)",
+        "total": 83,
+        "candidateAvailable": 68,
+        "candidateAvailabilityRatio": 0.8193,
+        "candidateAvailabilityRatioText": "81.9%",
+        "averageCandidateCount": 1.17,
+        "averageScore": 41.61,
+        "levelCounts": {
+          "together_likely": 6,
+          "inquiry_recommended": 29,
+          "split_only": 33,
+          "difficult": 15
+        }
+      },
+      {
+        "key": 25,
+        "label": "25시대(1시대)",
+        "total": 79,
+        "candidateAvailable": 63,
+        "candidateAvailabilityRatio": 0.7975,
+        "candidateAvailabilityRatioText": "79.7%",
+        "averageCandidateCount": 1.23,
+        "averageScore": 45.07,
+        "levelCounts": {
+          "together_likely": 12,
+          "inquiry_recommended": 24,
+          "split_only": 27,
+          "difficult": 16
+        }
+      }
+    ],
+    "byGroupSize": [
+      {
+        "key": 9,
+        "label": "9명",
+        "total": 148,
+        "candidateAvailable": 125,
+        "candidateAvailabilityRatio": 0.8446,
+        "candidateAvailabilityRatioText": "84.5%",
+        "averageCandidateCount": 1.3,
+        "averageScore": 41.26,
+        "levelCounts": {
+          "together_likely": 11,
+          "inquiry_recommended": 76,
+          "split_only": 38,
+          "difficult": 23
+        }
+      },
+      {
+        "key": 10,
+        "label": "10명",
+        "total": 168,
+        "candidateAvailable": 145,
+        "candidateAvailabilityRatio": 0.8631,
+        "candidateAvailabilityRatioText": "86.3%",
+        "averageCandidateCount": 1.32,
+        "averageScore": 43.65,
+        "levelCounts": {
+          "together_likely": 17,
+          "inquiry_recommended": 79,
+          "split_only": 49,
+          "difficult": 23
+        }
+      },
+      {
+        "key": 11,
+        "label": "11명",
+        "total": 158,
+        "candidateAvailable": 118,
+        "candidateAvailabilityRatio": 0.7468,
+        "candidateAvailabilityRatioText": "74.7%",
+        "averageCandidateCount": 1.06,
+        "averageScore": 38.57,
+        "levelCounts": {
+          "together_likely": 20,
+          "inquiry_recommended": 56,
+          "split_only": 42,
+          "difficult": 40
+        }
+      },
+      {
+        "key": 12,
+        "label": "12명",
+        "total": 197,
+        "candidateAvailable": 148,
+        "candidateAvailabilityRatio": 0.7513,
+        "candidateAvailabilityRatioText": "75.1%",
+        "averageCandidateCount": 1.1,
+        "averageScore": 39.63,
+        "levelCounts": {
+          "together_likely": 28,
+          "inquiry_recommended": 58,
+          "split_only": 62,
+          "difficult": 49
+        }
+      },
+      {
+        "key": 13,
+        "label": "13명",
+        "total": 133,
+        "candidateAvailable": 99,
+        "candidateAvailabilityRatio": 0.7444,
+        "candidateAvailabilityRatioText": "74.4%",
+        "averageCandidateCount": 0.99,
+        "averageScore": 36.39,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 32,
+          "split_only": 64,
+          "difficult": 34
+        }
+      },
+      {
+        "key": 14,
+        "label": "14명",
+        "total": 122,
+        "candidateAvailable": 76,
+        "candidateAvailabilityRatio": 0.623,
+        "candidateAvailabilityRatioText": "62.3%",
+        "averageCandidateCount": 0.84,
+        "averageScore": 30.2,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 33,
+          "split_only": 40,
+          "difficult": 46
+        }
+      },
+      {
+        "key": 15,
+        "label": "15명",
+        "total": 40,
+        "candidateAvailable": 29,
+        "candidateAvailabilityRatio": 0.725,
+        "candidateAvailabilityRatioText": "72.5%",
+        "averageCandidateCount": 1.02,
+        "averageScore": 34.81,
+        "levelCounts": {
+          "together_likely": 0,
+          "inquiry_recommended": 13,
+          "split_only": 16,
+          "difficult": 11
+        }
+      },
+      {
+        "key": 16,
+        "label": "16명",
+        "total": 34,
+        "candidateAvailable": 20,
+        "candidateAvailabilityRatio": 0.5882,
+        "candidateAvailabilityRatioText": "58.8%",
+        "averageCandidateCount": 0.79,
+        "averageScore": 27.61,
+        "levelCounts": {
+          "together_likely": 0,
+          "inquiry_recommended": 8,
+          "split_only": 12,
+          "difficult": 14
+        }
+      }
+    ],
+    "bySeatingPreference": [
+      {
+        "key": "split_ok",
+        "label": "일부 분리 가능",
+        "total": 461,
+        "candidateAvailable": 378,
+        "candidateAvailabilityRatio": 0.82,
+        "candidateAvailabilityRatioText": "82.0%",
+        "averageCandidateCount": 1.19,
+        "averageScore": 40.8,
+        "levelCounts": {
+          "together_likely": 34,
+          "inquiry_recommended": 176,
+          "split_only": 168,
+          "difficult": 83
+        }
+      },
+      {
+        "key": "any",
+        "label": "같은 매장이면 괜찮음",
+        "total": 337,
+        "candidateAvailable": 284,
+        "candidateAvailabilityRatio": 0.8427,
+        "candidateAvailabilityRatioText": "84.3%",
+        "averageCandidateCount": 1.25,
+        "averageScore": 44.37,
+        "levelCounts": {
+          "together_likely": 29,
+          "inquiry_recommended": 100,
+          "split_only": 155,
+          "difficult": 53
+        }
+      },
+      {
+        "key": "together",
+        "label": "붙어 앉기 선호",
+        "total": 202,
+        "candidateAvailable": 98,
+        "candidateAvailabilityRatio": 0.4851,
+        "candidateAvailabilityRatioText": "48.5%",
+        "averageCandidateCount": 0.65,
+        "averageScore": 21.95,
+        "levelCounts": {
+          "together_likely": 19,
+          "inquiry_recommended": 79,
+          "split_only": 0,
+          "difficult": 104
+        }
+      }
+    ]
+  },
+  {
+    "scenarioName": "strictTogether",
+    "totalTestRequests": 1000,
+    "candidateAvailabilityRatio": 0.867,
+    "candidateAvailabilityRatioText": "86.7%",
+    "averageCandidateCount": 1.42,
+    "averageScore": 59.36,
+    "levelCounts": {
+      "together_likely": 554,
+      "inquiry_recommended": 313,
+      "split_only": 0,
+      "difficult": 133
+    },
+    "levelTable": [
+      {
+        "level": "together_likely",
+        "label": "같이 앉기 가능성 높음",
+        "count": 554,
+        "ratio": 0.554,
+        "ratioText": "55.4%"
+      },
+      {
+        "level": "inquiry_recommended",
+        "label": "문의 권장",
+        "count": 313,
+        "ratio": 0.313,
+        "ratioText": "31.3%"
+      },
+      {
+        "level": "split_only",
+        "label": "분리 착석 가능",
+        "count": 0,
+        "ratio": 0,
+        "ratioText": "0.0%"
+      },
+      {
+        "level": "difficult",
+        "label": "현재 조건에서는 어려움",
+        "count": 133,
+        "ratio": 0.133,
+        "ratioText": "13.3%"
+      }
+    ],
+    "byHour": [
+      {
+        "key": 18,
+        "label": "18시대",
+        "total": 109,
+        "candidateAvailable": 99,
+        "candidateAvailabilityRatio": 0.9083,
+        "candidateAvailabilityRatioText": "90.8%",
+        "averageCandidateCount": 1.64,
+        "averageScore": 79.56,
+        "levelCounts": {
+          "together_likely": 90,
+          "inquiry_recommended": 9,
+          "split_only": 0,
+          "difficult": 10
+        }
+      },
+      {
+        "key": 19,
+        "label": "19시대",
+        "total": 108,
+        "candidateAvailable": 93,
+        "candidateAvailabilityRatio": 0.8611,
+        "candidateAvailabilityRatioText": "86.1%",
+        "averageCandidateCount": 1.31,
+        "averageScore": 63.42,
+        "levelCounts": {
+          "together_likely": 66,
+          "inquiry_recommended": 27,
+          "split_only": 0,
+          "difficult": 15
+        }
+      },
+      {
+        "key": 20,
+        "label": "20시대",
+        "total": 155,
+        "candidateAvailable": 138,
+        "candidateAvailabilityRatio": 0.8903,
+        "candidateAvailabilityRatioText": "89.0%",
+        "averageCandidateCount": 1.45,
+        "averageScore": 53.76,
+        "levelCounts": {
+          "together_likely": 69,
+          "inquiry_recommended": 69,
+          "split_only": 0,
+          "difficult": 17
+        }
+      },
+      {
+        "key": 21,
+        "label": "21시대",
+        "total": 161,
+        "candidateAvailable": 140,
+        "candidateAvailabilityRatio": 0.8696,
+        "candidateAvailabilityRatioText": "87.0%",
+        "averageCandidateCount": 1.47,
+        "averageScore": 55.86,
+        "levelCounts": {
+          "together_likely": 83,
+          "inquiry_recommended": 57,
+          "split_only": 0,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 22,
+        "label": "22시대",
+        "total": 146,
+        "candidateAvailable": 119,
+        "candidateAvailabilityRatio": 0.8151,
+        "candidateAvailabilityRatioText": "81.5%",
+        "averageCandidateCount": 1.36,
+        "averageScore": 50.45,
+        "levelCounts": {
+          "together_likely": 65,
+          "inquiry_recommended": 54,
+          "split_only": 0,
+          "difficult": 27
+        }
+      },
+      {
+        "key": 23,
+        "label": "23시대",
+        "total": 141,
+        "candidateAvailable": 120,
+        "candidateAvailabilityRatio": 0.8511,
+        "candidateAvailabilityRatioText": "85.1%",
+        "averageCandidateCount": 1.38,
+        "averageScore": 52.22,
+        "levelCounts": {
+          "together_likely": 65,
+          "inquiry_recommended": 55,
+          "split_only": 0,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 24,
+        "label": "24시대(0시대)",
+        "total": 77,
+        "candidateAvailable": 67,
+        "candidateAvailabilityRatio": 0.8701,
+        "candidateAvailabilityRatioText": "87.0%",
+        "averageCandidateCount": 1.25,
+        "averageScore": 58.42,
+        "levelCounts": {
+          "together_likely": 41,
+          "inquiry_recommended": 26,
+          "split_only": 0,
+          "difficult": 10
+        }
+      },
+      {
+        "key": 25,
+        "label": "25시대(1시대)",
+        "total": 103,
+        "candidateAvailable": 91,
+        "candidateAvailabilityRatio": 0.8835,
+        "candidateAvailabilityRatioText": "88.3%",
+        "averageCandidateCount": 1.49,
+        "averageScore": 70.74,
+        "levelCounts": {
+          "together_likely": 75,
+          "inquiry_recommended": 16,
+          "split_only": 0,
+          "difficult": 12
+        }
+      }
+    ],
+    "byGroupSize": [
+      {
+        "key": 2,
+        "label": "2명",
+        "total": 114,
+        "candidateAvailable": 113,
+        "candidateAvailabilityRatio": 0.9912,
+        "candidateAvailabilityRatioText": "99.1%",
+        "averageCandidateCount": 1.95,
+        "averageScore": 81.32,
+        "levelCounts": {
+          "together_likely": 102,
+          "inquiry_recommended": 11,
+          "split_only": 0,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 3,
+        "label": "3명",
+        "total": 109,
+        "candidateAvailable": 108,
+        "candidateAvailabilityRatio": 0.9908,
+        "candidateAvailabilityRatioText": "99.1%",
+        "averageCandidateCount": 1.98,
+        "averageScore": 82.48,
+        "levelCounts": {
+          "together_likely": 101,
+          "inquiry_recommended": 7,
+          "split_only": 0,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 4,
+        "label": "4명",
+        "total": 121,
+        "candidateAvailable": 120,
+        "candidateAvailabilityRatio": 0.9917,
+        "candidateAvailabilityRatioText": "99.2%",
+        "averageCandidateCount": 2.05,
+        "averageScore": 80.8,
+        "levelCounts": {
+          "together_likely": 107,
+          "inquiry_recommended": 13,
+          "split_only": 0,
+          "difficult": 1
+        }
+      },
+      {
+        "key": 5,
+        "label": "5명",
+        "total": 119,
+        "candidateAvailable": 115,
+        "candidateAvailabilityRatio": 0.9664,
+        "candidateAvailabilityRatioText": "96.6%",
+        "averageCandidateCount": 1.43,
+        "averageScore": 66.2,
+        "levelCounts": {
+          "together_likely": 71,
+          "inquiry_recommended": 44,
+          "split_only": 0,
+          "difficult": 4
+        }
+      },
+      {
+        "key": 6,
+        "label": "6명",
+        "total": 107,
+        "candidateAvailable": 99,
+        "candidateAvailabilityRatio": 0.9252,
+        "candidateAvailabilityRatioText": "92.5%",
+        "averageCandidateCount": 1.3,
+        "averageScore": 63.32,
+        "levelCounts": {
+          "together_likely": 61,
+          "inquiry_recommended": 38,
+          "split_only": 0,
+          "difficult": 8
+        }
+      },
+      {
+        "key": 7,
+        "label": "7명",
+        "total": 96,
+        "candidateAvailable": 87,
+        "candidateAvailabilityRatio": 0.9063,
+        "candidateAvailabilityRatioText": "90.6%",
+        "averageCandidateCount": 1.27,
+        "averageScore": 57.62,
+        "levelCounts": {
+          "together_likely": 50,
+          "inquiry_recommended": 37,
+          "split_only": 0,
+          "difficult": 9
+        }
+      },
+      {
+        "key": 8,
+        "label": "8명",
+        "total": 92,
+        "candidateAvailable": 79,
+        "candidateAvailabilityRatio": 0.8587,
+        "candidateAvailabilityRatioText": "85.9%",
+        "averageCandidateCount": 1.25,
+        "averageScore": 47.85,
+        "levelCounts": {
+          "together_likely": 32,
+          "inquiry_recommended": 47,
+          "split_only": 0,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 9,
+        "label": "9명",
+        "total": 62,
+        "candidateAvailable": 56,
+        "candidateAvailabilityRatio": 0.9032,
+        "candidateAvailabilityRatioText": "90.3%",
+        "averageCandidateCount": 1.1,
+        "averageScore": 39.64,
+        "levelCounts": {
+          "together_likely": 10,
+          "inquiry_recommended": 46,
+          "split_only": 0,
+          "difficult": 6
+        }
+      },
+      {
+        "key": 10,
+        "label": "10명",
+        "total": 55,
+        "candidateAvailable": 46,
+        "candidateAvailabilityRatio": 0.8364,
+        "candidateAvailabilityRatioText": "83.6%",
+        "averageCandidateCount": 1.07,
+        "averageScore": 34.27,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 42,
+          "split_only": 0,
+          "difficult": 9
+        }
+      },
+      {
+        "key": 11,
+        "label": "11명",
+        "total": 36,
+        "candidateAvailable": 16,
+        "candidateAvailabilityRatio": 0.4444,
+        "candidateAvailabilityRatioText": "44.4%",
+        "averageCandidateCount": 0.64,
+        "averageScore": 26.77,
+        "levelCounts": {
+          "together_likely": 8,
+          "inquiry_recommended": 8,
+          "split_only": 0,
+          "difficult": 20
+        }
+      },
+      {
+        "key": 12,
+        "label": "12명",
+        "total": 33,
+        "candidateAvailable": 12,
+        "candidateAvailabilityRatio": 0.3636,
+        "candidateAvailabilityRatioText": "36.4%",
+        "averageCandidateCount": 0.52,
+        "averageScore": 19.49,
+        "levelCounts": {
+          "together_likely": 5,
+          "inquiry_recommended": 7,
+          "split_only": 0,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 13,
+        "label": "13명",
+        "total": 41,
+        "candidateAvailable": 12,
+        "candidateAvailabilityRatio": 0.2927,
+        "candidateAvailabilityRatioText": "29.3%",
+        "averageCandidateCount": 0.44,
+        "averageScore": 14.16,
+        "levelCounts": {
+          "together_likely": 2,
+          "inquiry_recommended": 10,
+          "split_only": 0,
+          "difficult": 29
+        }
+      },
+      {
+        "key": 14,
+        "label": "14명",
+        "total": 15,
+        "candidateAvailable": 4,
+        "candidateAvailabilityRatio": 0.2667,
+        "candidateAvailabilityRatioText": "26.7%",
+        "averageCandidateCount": 0.47,
+        "averageScore": 13.77,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 3,
+          "split_only": 0,
+          "difficult": 11
+        }
+      }
+    ],
+    "bySeatingPreference": [
+      {
+        "key": "together",
+        "label": "붙어 앉기 선호",
+        "total": 1000,
+        "candidateAvailable": 867,
+        "candidateAvailabilityRatio": 0.867,
+        "candidateAvailabilityRatioText": "86.7%",
+        "averageCandidateCount": 1.42,
+        "averageScore": 59.36,
+        "levelCounts": {
+          "together_likely": 554,
+          "inquiry_recommended": 313,
+          "split_only": 0,
+          "difficult": 133
+        }
+      }
+    ]
+  },
+  {
+    "scenarioName": "occupancyStress",
+    "totalTestRequests": 1000,
+    "candidateAvailabilityRatio": 0.833,
+    "candidateAvailabilityRatioText": "83.3%",
+    "averageCandidateCount": 1.36,
+    "averageScore": 48.77,
+    "levelCounts": {
+      "together_likely": 339,
+      "inquiry_recommended": 409,
+      "split_only": 85,
+      "difficult": 167
+    },
+    "levelTable": [
+      {
+        "level": "together_likely",
+        "label": "같이 앉기 가능성 높음",
+        "count": 339,
+        "ratio": 0.339,
+        "ratioText": "33.9%"
+      },
+      {
+        "level": "inquiry_recommended",
+        "label": "문의 권장",
+        "count": 409,
+        "ratio": 0.409,
+        "ratioText": "40.9%"
+      },
+      {
+        "level": "split_only",
+        "label": "분리 착석 가능",
+        "count": 85,
+        "ratio": 0.085,
+        "ratioText": "8.5%"
+      },
+      {
+        "level": "difficult",
+        "label": "현재 조건에서는 어려움",
+        "count": 167,
+        "ratio": 0.167,
+        "ratioText": "16.7%"
+      }
+    ],
+    "byHour": [
+      {
+        "key": 18,
+        "label": "18시대",
+        "total": 32,
+        "candidateAvailable": 32,
+        "candidateAvailabilityRatio": 1,
+        "candidateAvailabilityRatioText": "100.0%",
+        "averageCandidateCount": 1.97,
+        "averageScore": 86.88,
+        "levelCounts": {
+          "together_likely": 28,
+          "inquiry_recommended": 1,
+          "split_only": 3,
+          "difficult": 0
+        }
+      },
+      {
+        "key": 19,
+        "label": "19시대",
+        "total": 25,
+        "candidateAvailable": 25,
+        "candidateAvailabilityRatio": 1,
+        "candidateAvailabilityRatioText": "100.0%",
+        "averageCandidateCount": 2.16,
+        "averageScore": 78.82,
+        "levelCounts": {
+          "together_likely": 19,
+          "inquiry_recommended": 4,
+          "split_only": 2,
+          "difficult": 0
+        }
+      },
+      {
+        "key": 20,
+        "label": "20시대",
+        "total": 119,
+        "candidateAvailable": 98,
+        "candidateAvailabilityRatio": 0.8235,
+        "candidateAvailabilityRatioText": "82.4%",
+        "averageCandidateCount": 1.26,
+        "averageScore": 47.19,
+        "levelCounts": {
+          "together_likely": 35,
+          "inquiry_recommended": 50,
+          "split_only": 13,
+          "difficult": 21
+        }
+      },
+      {
+        "key": 21,
+        "label": "21시대",
+        "total": 85,
+        "candidateAvailable": 66,
+        "candidateAvailabilityRatio": 0.7765,
+        "candidateAvailabilityRatioText": "77.6%",
+        "averageCandidateCount": 1.18,
+        "averageScore": 38.16,
+        "levelCounts": {
+          "together_likely": 18,
+          "inquiry_recommended": 46,
+          "split_only": 2,
+          "difficult": 19
+        }
+      },
+      {
+        "key": 22,
+        "label": "22시대",
+        "total": 249,
+        "candidateAvailable": 200,
+        "candidateAvailabilityRatio": 0.8032,
+        "candidateAvailabilityRatioText": "80.3%",
+        "averageCandidateCount": 1.28,
+        "averageScore": 42.29,
+        "levelCounts": {
+          "together_likely": 65,
+          "inquiry_recommended": 115,
+          "split_only": 20,
+          "difficult": 49
+        }
+      },
+      {
+        "key": 23,
+        "label": "23시대",
+        "total": 233,
+        "candidateAvailable": 178,
+        "candidateAvailabilityRatio": 0.7639,
+        "candidateAvailabilityRatioText": "76.4%",
+        "averageCandidateCount": 1.16,
+        "averageScore": 37.69,
+        "levelCounts": {
+          "together_likely": 44,
+          "inquiry_recommended": 120,
+          "split_only": 14,
+          "difficult": 55
+        }
+      },
+      {
+        "key": 24,
+        "label": "24시대(0시대)",
+        "total": 149,
+        "candidateAvailable": 134,
+        "candidateAvailabilityRatio": 0.8993,
+        "candidateAvailabilityRatioText": "89.9%",
+        "averageCandidateCount": 1.56,
+        "averageScore": 57.1,
+        "levelCounts": {
+          "together_likely": 63,
+          "inquiry_recommended": 50,
+          "split_only": 21,
+          "difficult": 15
+        }
+      },
+      {
+        "key": 25,
+        "label": "25시대(1시대)",
+        "total": 108,
+        "candidateAvailable": 100,
+        "candidateAvailabilityRatio": 0.9259,
+        "candidateAvailabilityRatioText": "92.6%",
+        "averageCandidateCount": 1.62,
+        "averageScore": 68.02,
+        "levelCounts": {
+          "together_likely": 67,
+          "inquiry_recommended": 23,
+          "split_only": 10,
+          "difficult": 8
+        }
+      }
+    ],
+    "byGroupSize": [
+      {
+        "key": 2,
+        "label": "2명",
+        "total": 86,
+        "candidateAvailable": 86,
+        "candidateAvailabilityRatio": 1,
+        "candidateAvailabilityRatioText": "100.0%",
+        "averageCandidateCount": 1.94,
+        "averageScore": 70.64,
+        "levelCounts": {
+          "together_likely": 59,
+          "inquiry_recommended": 27,
+          "split_only": 0,
+          "difficult": 0
+        }
+      },
+      {
+        "key": 3,
+        "label": "3명",
+        "total": 120,
+        "candidateAvailable": 120,
+        "candidateAvailabilityRatio": 1,
+        "candidateAvailabilityRatioText": "100.0%",
+        "averageCandidateCount": 1.94,
+        "averageScore": 69.74,
+        "levelCounts": {
+          "together_likely": 79,
+          "inquiry_recommended": 37,
+          "split_only": 4,
+          "difficult": 0
+        }
+      },
+      {
+        "key": 4,
+        "label": "4명",
+        "total": 150,
+        "candidateAvailable": 145,
+        "candidateAvailabilityRatio": 0.9667,
+        "candidateAvailabilityRatioText": "96.7%",
+        "averageCandidateCount": 1.67,
+        "averageScore": 63.28,
+        "levelCounts": {
+          "together_likely": 79,
+          "inquiry_recommended": 59,
+          "split_only": 7,
+          "difficult": 5
+        }
+      },
+      {
+        "key": 5,
+        "label": "5명",
+        "total": 117,
+        "candidateAvailable": 101,
+        "candidateAvailabilityRatio": 0.8632,
+        "candidateAvailabilityRatioText": "86.3%",
+        "averageCandidateCount": 1.34,
+        "averageScore": 47.09,
+        "levelCounts": {
+          "together_likely": 32,
+          "inquiry_recommended": 59,
+          "split_only": 10,
+          "difficult": 16
+        }
+      },
+      {
+        "key": 6,
+        "label": "6명",
+        "total": 103,
+        "candidateAvailable": 80,
+        "candidateAvailabilityRatio": 0.7767,
+        "candidateAvailabilityRatioText": "77.7%",
+        "averageCandidateCount": 1.17,
+        "averageScore": 43.58,
+        "levelCounts": {
+          "together_likely": 27,
+          "inquiry_recommended": 47,
+          "split_only": 6,
+          "difficult": 23
+        }
+      },
+      {
+        "key": 7,
+        "label": "7명",
+        "total": 108,
+        "candidateAvailable": 88,
+        "candidateAvailabilityRatio": 0.8148,
+        "candidateAvailabilityRatioText": "81.5%",
+        "averageCandidateCount": 1.17,
+        "averageScore": 44.39,
+        "levelCounts": {
+          "together_likely": 28,
+          "inquiry_recommended": 49,
+          "split_only": 11,
+          "difficult": 20
+        }
+      },
+      {
+        "key": 8,
+        "label": "8명",
+        "total": 69,
+        "candidateAvailable": 62,
+        "candidateAvailabilityRatio": 0.8986,
+        "candidateAvailabilityRatioText": "89.9%",
+        "averageCandidateCount": 1.46,
+        "averageScore": 46.82,
+        "levelCounts": {
+          "together_likely": 17,
+          "inquiry_recommended": 37,
+          "split_only": 8,
+          "difficult": 7
+        }
+      },
+      {
+        "key": 9,
+        "label": "9명",
+        "total": 79,
+        "candidateAvailable": 53,
+        "candidateAvailabilityRatio": 0.6709,
+        "candidateAvailabilityRatioText": "67.1%",
+        "averageCandidateCount": 0.95,
+        "averageScore": 28.56,
+        "levelCounts": {
+          "together_likely": 5,
+          "inquiry_recommended": 39,
+          "split_only": 9,
+          "difficult": 26
+        }
+      },
+      {
+        "key": 10,
+        "label": "10명",
+        "total": 55,
+        "candidateAvailable": 42,
+        "candidateAvailabilityRatio": 0.7636,
+        "candidateAvailabilityRatioText": "76.4%",
+        "averageCandidateCount": 0.98,
+        "averageScore": 34.69,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 27,
+          "split_only": 11,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 11,
+        "label": "11명",
+        "total": 30,
+        "candidateAvailable": 17,
+        "candidateAvailabilityRatio": 0.5667,
+        "candidateAvailabilityRatioText": "56.7%",
+        "averageCandidateCount": 0.8,
+        "averageScore": 27.19,
+        "levelCounts": {
+          "together_likely": 4,
+          "inquiry_recommended": 9,
+          "split_only": 4,
+          "difficult": 13
+        }
+      },
+      {
+        "key": 12,
+        "label": "12명",
+        "total": 46,
+        "candidateAvailable": 24,
+        "candidateAvailabilityRatio": 0.5217,
+        "candidateAvailabilityRatioText": "52.2%",
+        "averageCandidateCount": 0.74,
+        "averageScore": 25.57,
+        "levelCounts": {
+          "together_likely": 3,
+          "inquiry_recommended": 11,
+          "split_only": 10,
+          "difficult": 22
+        }
+      },
+      {
+        "key": 13,
+        "label": "13명",
+        "total": 26,
+        "candidateAvailable": 10,
+        "candidateAvailabilityRatio": 0.3846,
+        "candidateAvailabilityRatioText": "38.5%",
+        "averageCandidateCount": 0.42,
+        "averageScore": 15.6,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 6,
+          "split_only": 3,
+          "difficult": 16
+        }
+      },
+      {
+        "key": 14,
+        "label": "14명",
+        "total": 11,
+        "candidateAvailable": 5,
+        "candidateAvailabilityRatio": 0.4545,
+        "candidateAvailabilityRatioText": "45.5%",
+        "averageCandidateCount": 0.82,
+        "averageScore": 22.85,
+        "levelCounts": {
+          "together_likely": 1,
+          "inquiry_recommended": 2,
+          "split_only": 2,
+          "difficult": 6
+        }
+      }
+    ],
+    "bySeatingPreference": [
+      {
+        "key": "together",
+        "label": "붙어 앉기 선호",
+        "total": 338,
+        "candidateAvailable": 256,
+        "candidateAvailabilityRatio": 0.7574,
+        "candidateAvailabilityRatioText": "75.7%",
+        "averageCandidateCount": 1.17,
+        "averageScore": 39.5,
+        "levelCounts": {
+          "together_likely": 91,
+          "inquiry_recommended": 165,
+          "split_only": 0,
+          "difficult": 82
+        }
+      },
+      {
+        "key": "any",
+        "label": "같은 매장이면 괜찮음",
+        "total": 275,
+        "candidateAvailable": 244,
+        "candidateAvailabilityRatio": 0.8873,
+        "candidateAvailabilityRatioText": "88.7%",
+        "averageCandidateCount": 1.5,
+        "averageScore": 55.37,
+        "levelCounts": {
+          "together_likely": 106,
+          "inquiry_recommended": 94,
+          "split_only": 44,
+          "difficult": 31
+        }
+      },
+      {
+        "key": "split_ok",
+        "label": "일부 분리 가능",
+        "total": 387,
+        "candidateAvailable": 333,
+        "candidateAvailabilityRatio": 0.8605,
+        "candidateAvailabilityRatioText": "86.0%",
+        "averageCandidateCount": 1.43,
+        "averageScore": 52.18,
+        "levelCounts": {
+          "together_likely": 142,
+          "inquiry_recommended": 150,
+          "split_only": 41,
+          "difficult": 54
+        }
+      }
+    ]
+  }
+]
